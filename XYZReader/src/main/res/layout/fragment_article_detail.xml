@@ -22,7 +22,7 @@
                 <ImageView
                     android:id="@+id/photo"
                     android:layout_width="match_parent"
-                    android:layout_height="match_parent"
+                    android:layout_height="@dimen/detail_card_top_margin"
                     android:scaleType="centerCrop"
                     />
 
@@ -120,8 +120,6 @@
         android:layout_margin="16dp"
         android:clickable="true"
         android:src="@drawable/ic_share"
-        android:background="@color/theme_accent"
-        android:elevation="@dimen/fab_elevation"
         android:contentDescription="@string/action_share"/>
 
 </com.example.xyzreader.ui.DrawInsetsFrameLayout>
